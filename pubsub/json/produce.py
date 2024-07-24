@@ -16,10 +16,11 @@ def produce():
     try:
         while True:
             stock = {
-                'event_time': datetime.now().isoformat(),
-                'ticker': random.choice(['AAPL', 'AMZN', 'MSFT', 'INTC', 'TBV']),
-                'price': round(random.random() * 100, 2)
+                "event_time": "2023-11-30T14:43:29.700245",
+                "ticker": "AMZN",
+                "price": 74.95                
             }
+           
             p.produce(TOPIC, key=str(uuid.uuid4), value=json.dumps(stock), callback=delivery_report)
     except Exception as e:
         print(str(e))

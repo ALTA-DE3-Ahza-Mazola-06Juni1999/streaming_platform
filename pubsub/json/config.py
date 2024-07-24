@@ -1,1 +1,1 @@
-TOPIC="stock_json_topic"
+TOPIC="stock_avro_topic"
