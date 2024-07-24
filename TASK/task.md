@@ -1,5 +1,7 @@
 ### TASK 
-Create a new topic named stock_avro_topic, then publish the stock streaming data with avro schema to the newly created topic#### 1). Buat topik terbaru dengan nama 'stock_avro_topic'
+Create a new topic named stock_avro_topic, then publish the stock streaming data with avro schema to the newly created topic
+
+#### 1). Buat topik terbaru dengan nama 'stock_avro_topic'
 
 ![stock_avro_topic](image.png)
 
